@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="@drawable/bgcategory"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.Category"
+    >
+
+    <Button
+        android:id="@+id/viewCart"
+        android:layout_width="67dp"
+        android:layout_height="52dp"
+        android:background="@drawable/carticon2"
+        android:onClick="cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="mainPage"
+        android:text="BACK"
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="dairyProducts"
+        android:text="DAIRY PRODUCTS" />
+
+    <Button
+        android:id="@+id/fruitsVeggiesBtn"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="fruitsVeggies"
+        android:text="FRUITS AND VEGETABLES" />
+
+    <Button
+        android:id="@+id/meatBtn"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="meatSection"
+        android:text="MEAT SECTION" />
+
+    <Button
+        android:id="@+id/pastaBtn"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="pastaSection"
+        android:text="PASTA" />
+
+    <Button
+        android:id="@+id/spicesBtn"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="spicesito"
+        android:text="SPICES" />
+
+    <Button
+        android:id="@+id/cannedBtn"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:onClick="cannedGoods"
+        android:text="CANNED GOODS" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdobongManok">
+
+    <TextView
+        android:id="@+id/aManokTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADOBONG MANOK"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/aManokIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTS"
+        android:layout_below="@+id/aManokTitle"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/aManokIngr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/2 piece chicken, 1/4 cup soy sauce, 1/2 kilo, 10 garlic grains, 1/2 rinsed annatto (atsuete)"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/aManokIng"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="productList"
+        android:layout_below="@+id/aManokIngr"
+        android:text="ADD TO CART"/>
+</RelativeLayout>

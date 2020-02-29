@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sari">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LumpiangPrito"></activity>
+        <activity android:name=".ChopsueyMeal" />
+        <activity android:name=".LumpiangShanghai" />
+        <activity android:name=".AdobongManok" />
+        <activity android:name=".MechadongBaboy" />
+        <activity android:name=".activity.ProductListCart" />
+        <activity android:name=".activity.CartActivity" />
+        <activity android:name=".activity.Category" />
+        <activity android:name=".activity.Meals" />
+        <activity android:name=".activity.CannedGoods" />
+        <activity android:name=".activity.DairyProducts" />
+        <activity android:name=".activity.FruitsVeggies" />
+        <activity android:name=".activity.MeatSection" />
+        <activity android:name=".activity.PastaSection" />
+        <activity android:name=".activity.SpicesSection" />
+        <activity android:name=".activity.Login" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Register"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.Choices" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

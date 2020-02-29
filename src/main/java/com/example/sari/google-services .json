@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "959480683774",
+    "firebase_url": "https://sari-9c1e2.firebaseio.com",
+    "project_id": "sari-9c1e2",
+    "storage_bucket": "sari-9c1e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959480683774:android:26697626464ed02db9d9af",
+        "android_client_info": {
+          "package_name": "com.example.sari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959480683774-6kojtdv9oej4qj6ttpkcr0svb9akrhsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sari",
+            "certificate_hash": "13bcdb09725b8cb8e0cb21a13b0444342f6616e1"
+          }
+        },
+        {
+          "client_id": "959480683774-mjgodjb195lrghueq50nmam8hso8ktlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUcOXJirT4AR72p8m4CXw-cfIamb7xaw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959480683774-mjgodjb195lrghueq50nmam8hso8ktlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

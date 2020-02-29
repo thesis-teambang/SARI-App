@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LumpiangShanghai">
+
+    <TextView
+        android:id="@+id/lShanghaiT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUMPIANG SHANGHAI"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lShanghaiIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTS"
+        android:layout_below="@+id/lShanghaiT"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/lShanghaiIngr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/4 kilo ground pork, 1 tablespoon shrimp gravy mix, 1/3 cup singkamas, 2 sliced carrots, 1 onion chopped, 2 tablespoons fined chopped celery,  1 tablespoon barbecue marinade,1 egg, pepper, 25 lumpia wrapper"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/lShanghaiIng"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="productList"
+        android:layout_below="@+id/lShanghaiIngr"
+        android:text="ADD TO CART"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MechadongBaboy">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/mBaboyImg"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="260dp"-->
+<!--        android:background="@mipmap/m"-->
+<!--        android:scaleType="centerCrop"/>-->
+
+    <TextView
+        android:id="@+id/mBaboyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MECHADONG BABOY"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/mBaboyIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTS"
+        android:layout_below="@+id/mBaboyTitle"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/mBaboyIngr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/2 kilo pork meat, 1 pc egg, 2 tablespoons vinegar, 3 tablespoons cooking oil, 1 pc pork belly (2 inches thick)"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/mBaboyIng"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="productList"
+        android:layout_below="@+id/mBaboyIngr"
+        android:text="ADD TO CART"/>
+
+</RelativeLayout>
